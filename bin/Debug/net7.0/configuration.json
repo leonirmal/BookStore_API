@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "IsEncrypt": false,
+    "Connection": "Data Source=L-ID-114;Initial Catalog=Publisher_Dev;Integrated Security=True;TrustServerCertificate=true",
+    "ConnectionLite": "Filename=AppData\\ServiceAudit.db"
+  }
+
+}

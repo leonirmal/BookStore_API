@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "BookStoreAPI.Controllers.StoreController",
+    "Method": "GetBooksList",
+    "RelativePath": "Store/booksList-authorTitle-based",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "BookStoreAPI.Domain.RequestQueries.GetBooksListAuthorTitleQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookStoreAPI._Core.ResponseModels.Result\u00601[[System.Collections.Generic.List\u00601[[BookStoreAPI.Domain.ResponseModels.cs.GetBooksListResponse, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.StoreController",
+    "Method": "BulkSaveBooks",
+    "RelativePath": "Store/bulk-save-books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "BookStoreAPI.Domain.RequestQueries.BulkSaveBooksQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookStoreAPI._Core.ResponseModels.Result\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.StoreController",
+    "Method": "GetBooksList",
+    "RelativePath": "Store/get-books-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "BookStoreAPI.Domain.RequestQueries.GetBooksListQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookStoreAPI._Core.ResponseModels.Result\u00601[[System.Collections.Generic.List\u00601[[BookStoreAPI.Domain.ResponseModels.cs.GetBooksListResponse, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookStoreAPI.Controllers.StoreController",
+    "Method": "GetBooksTotalPrice",
+    "RelativePath": "Store/get-books-totalPrice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BookStoreAPI._Core.ResponseModels.Result\u00601[[System.Decimal, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
